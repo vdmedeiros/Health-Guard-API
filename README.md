@@ -22,7 +22,7 @@ Esta API fornece funcionalidades completas para:
 - **CRUD de Pacientes**: Gerenciamento completo de pacientes com validação de CPF
 - **Histórico Médico**: Registro de consultas, diagnósticos, exames e prescrições
 - **Autenticação JWT**: Sistema seguro de autenticação e autorização
-- **Consulta de Exames Externos**: Endpoint mockado simulando integração com serviços como BrasilAPI
+- **Consulta de Exames Externos**: Endpoint mockado simulando integração com serviços
 
 ## Tecnologias Utilizadas
 
@@ -31,7 +31,7 @@ Esta API fornece funcionalidades completas para:
 | .NET | 8.0 | Framework principal |
 | ASP.NET Core | 8.0 | Web API |
 | Entity Framework Core | 8.0.4 | ORM |
-| PostgreSQL | 16+ | Banco de dados |
+| Sql Server | 16+ | Banco de dados |
 | JWT Bearer | 8.0.4 | Autenticação |
 | BCrypt.Net | 4.0.3 | Hash de senhas |
 | Swashbuckle | 6.5.0 | Documentação Swagger |
@@ -63,17 +63,9 @@ O projeto segue os princípios de **Clean Architecture** e **SOLID**:
 └── Program.cs                 # Configuração da aplicação
 ```
 
-### Princípios SOLID Aplicados
-
-1. **Single Responsibility**: Cada classe tem uma única responsabilidade
-2. **Open/Closed**: Extensível via interfaces sem modificar código existente
-3. **Liskov Substitution**: Implementações são substituíveis por suas abstrações
-4. **Interface Segregation**: Interfaces específicas para cada contexto
-5. **Dependency Inversion**: Dependências injetadas via construtor
-
 ## Decisões Técnicas
 
-### 1. BD SQL Server
+### 1. SQL Server
 
 ### 2. Repository Pattern
 
