@@ -1,0 +1,63 @@
+## .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Visual Studio
+.vs/
+*.ntvs_analysis.dat
+ntvs_analysis.dat
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+*.nupkg
+
+## User-specific files
+*.rsuser
+*.userprefs
+*.cache
+
+## IDE
+.idea/
+*.sln.iml
+
+## OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Environment
+.env
+.env.local
+*.log
+
+## Test Results
+TestResults/
+*.trx
